@@ -16,7 +16,7 @@ Transform UPDRS__3 continuous variable to binary (0,1) correspondingly to (below
 ##### ppmi_data4ML_class.R, ppmi_data4ML_TS_class.R
 Perform unsupervised filters to generate data for ML modelling of mild/severe UPDRS III from RNAseq snapshot data (T0), and longitudinal features extracted from longitudinal RNAseq data, respectively.
 
-* These scripts employ as input transcriptomics and phenotypical data resulting from previous pre-processing scripts described in repository *statistical_analyses_cross_long_PD* for **parsing data** and **Baseline (T0) PD/HC** (ppmi_filter_gene_expression.R, ppmi_norm_gene_expression.R, ppmi_generate_pathway_level.R, ppmi_deseq_salmon_star.R). 
+* These scripts employ as input transcriptomics and phenotypical data resulting from previous pre-processing scripts described in repository [statistical_analyses_cross_long_PD](https://gitlab.lcsb.uni.lu/elisa.gomezdelope/statistical_analyses_cross_long_pd) for **parsing data** and **Baseline (T0) PD/HC** (ppmi_filter_gene_expression.R, ppmi_norm_gene_expression.R, ppmi_generate_pathway_level.R, ppmi_deseq_salmon_star.R). 
 
 
 
