@@ -15,7 +15,7 @@ Transform UPDRS__3 continuous variable to binary (0,1) correspondingly to (below
 ##### lx_data4ML_class.R, lx_data4ML_TS_class.R
 Perform unsupervised filters to generate data for ML modelling of metabolomics snapshot data (T0), and longitudinal features extracted from longitudinal metabolomics data, respectively.
 
-* These scripts employ as input metabolomics and phenotypical data resulting from previous pre-processing scripts described in repository *statistical_analyses_cross_long_PD* for **parsing data** and **Baseline (T0) PD/HC** (lx_extract_visit.R, lx_denovo_filter.R, lx_generate_pathway_level.R). 
+* These scripts employ as input metabolomics and phenotypical data resulting from previous pre-processing scripts described in repository [statistical_analyses_cross_long_PD](https://gitlab.lcsb.uni.lu/elisa.gomezdelope/statistical_analyses_cross_long_pd) for **parsing data** and **Baseline (T0) PD/HC** (lx_extract_visit.R, lx_denovo_filter.R, lx_generate_pathway_level.R). 
 
 
 
