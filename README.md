@@ -30,7 +30,7 @@ The public transcriptomics data used in this project was derived from the Parkin
 The metabolomics data from LuxPARK is not publicly available as it is linked to the Luxembourg Parkinson’s Study and its internal regulations. Any requests for accessing the dataset can be directed to request.ncer-pd@uni.lu.
 
 ## Requirements
-The code for ML modeling was implemented in Python (3.9.13), and that for the pre-processing steps, was implemented in R (R 4.0.3). It has been tested on both current Mac (Ventura) and Linux operating systems (Rocky Linux 8.7 (Green Obsidian)), relying on multiple Python, R, and BioConductor packages correspondingly that are listed at the beginning of each script. The code should be compatible with later versions of Python and R installed on current Mac, Linux or Windows systems. For the ML modeling, it is necessary to download and install the NestedCV() class implemented in the digipd_ml package and environment from repository [digipd_ml](https://gitlab.lcsb.uni.lu/elisa.gomezdelope/digipd_ml).
+The code for ML modeling was implemented in Python (3.9.13), and that for the pre-processing steps, was implemented in R (R 4.0.3). It has been tested on both current Mac (Ventura) and Linux operating systems (Rocky Linux 8.7 (Green Obsidian)), relying on multiple Python, R, and BioConductor packages correspondingly that are listed at the beginning of each script. The code should be compatible with later versions of Python and R installed on current Mac, Linux or Windows systems. **For the ML modeling, it is necessary to download and install the NestedCV() class implemented in the digipd_ml package and environment from repository [digipd_ml](https://gitlab.lcsb.uni.lu/elisa.gomezdelope/digipd_ml).**
 
 ## License
 TBD
